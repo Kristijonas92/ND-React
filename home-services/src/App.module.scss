@@ -2,11 +2,11 @@
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the app takes full height of the viewport */
+  min-height: 100vh;
 }
 
 .mainContent {
-  flex: 1; /* Make main content take up the remaining space */
+  flex: 1;
   text-align: center;
   padding: 20px;
   display: flex;

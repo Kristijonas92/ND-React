@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Login from './pages/Login';
 import SearchCategory from './pages/SearchCategory';
+import PopularBusiness from './pages/PopularBusiness';
 import './App.module.scss';
 
 const App = () => (

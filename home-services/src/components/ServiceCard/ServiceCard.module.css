@@ -1,0 +1,20 @@
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  text-align: center;
+}
+.serviceCard img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.serviceCard p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}/*# sourceMappingURL=ServiceCard.module.css.map */

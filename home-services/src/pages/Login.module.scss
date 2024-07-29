@@ -1,0 +1,127 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    min-height: calc(100vh - 60px); // Adjust the height based on your topbar height
+  
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+  
+      .inputGroup {
+        margin-bottom: 15px;
+  
+        label {
+          font-size: 14px;
+          color: #555;
+          margin-bottom: 5px;
+        }
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          outline: none;
+  
+          &:focus {
+            border-color: #333;
+          }
+        }
+      }
+  
+      .buttonGroup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        button {
+          padding: 10px 20px;
+          font-size: 16px;
+          color: #fff;
+          background-color: #6c63ff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #574bff;
+          }
+        }
+  
+        a {
+          font-size: 14px;
+          color: #6c63ff;
+          text-decoration: none;
+          transition: color 0.3s;
+  
+          &:hover {
+            color: #574bff;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 10px;
+  
+      h1 {
+        font-size: 22px;
+      }
+  
+      form {
+        padding: 15px;
+      }
+    }
+    .error {
+      color: red;
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 20px;
+      }
+  
+      form {
+        padding: 10px;
+  
+        .inputGroup {
+          input {
+            font-size: 14px;
+          }
+        }
+  
+        .buttonGroup {
+          button {
+            padding: 8px 16px;
+            font-size: 14px;
+          }
+  
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  

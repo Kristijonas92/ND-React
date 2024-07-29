@@ -1,0 +1,91 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    min-height: calc(100vh - 60px); // Adjust the height based on your topbar height
+  
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+      color: #666;
+      line-height: 1.6;
+      max-width: 800px;
+      text-align: center;
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .section {
+        margin: 20px 0;
+        text-align: center;
+  
+        h2 {
+          font-size: 20px;
+          color: #444;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 16px;
+          color: #555;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 10px;
+  
+      h1 {
+        font-size: 22px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+  
+      .content {
+        .section {
+          h2 {
+            font-size: 18px;
+          }
+  
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 20px;
+      }
+  
+      p {
+        font-size: 14px;
+      }
+  
+      .content {
+        .section {
+          h2 {
+            font-size: 16px;
+          }
+  
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  
